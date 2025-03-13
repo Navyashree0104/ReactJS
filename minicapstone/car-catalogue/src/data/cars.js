@@ -1,0 +1,40 @@
+const cars = [
+  {
+    id: 1,
+    brand: "Toyota",
+    model: "Camry",
+    price: 30000,
+    year: 2022,
+    fuel: "Petrol",
+    image: "/images/camry.jpg",
+    description: "A comfortable and reliable sedan with excellent fuel efficiency.",
+    horsepower: 203,
+    transmission: "Automatic",
+  },
+  {
+    id: 2,
+    brand: "Honda",
+    model: "Civic",
+    price: 25000,
+    year: 2021,
+    fuel: "Diesel",
+    image: "/images/civic.jpg",
+    description: "A stylish and sporty compact car with great performance.",
+    horsepower: 158,
+    transmission: "Manual",
+  },
+  {
+    id: 3,
+    brand: "Tesla",
+    model: "Model 3",
+    price: 50000,
+    year: 2023,
+    fuel: "Electric",
+    image: "/images/tesla.jpg",
+    description: "A high-tech electric sedan with autopilot and fast charging.",
+    horsepower: 283,
+    transmission: "Automatic",
+  },
+];
+
+export default cars;
